@@ -1,0 +1,75 @@
+/* ========== CSS Document ======== */
+
+ /* Navigation */
+
+ .navbar-default{
+ 	margin-bottom: 0;
+ 	padding: 20px;
+ 	background-image: linear-gradient(to bottom,#2c3e50 0,#2c3e50 100%);
+ 	border-color: #2c3e50;
+ 	border-radius: 0;
+ }
+
+ .navbar-default .navbar-brand{
+ 	color: #ffffff;
+ }
+
+ .navbar-default .navbar-nav>li>a{
+ 	color: #ffffff;
+ }
+
+
+ /* Body */
+
+ #main-wrapper{
+ 	padding: 200px;
+ 	background-color: #18bc9c;
+ 	color: #ffffff;
+  	text-align: center;
+ }
+
+ .block{
+ 	width: 256px;
+ 	height: 256px;
+ 	background-color: #cccccc;
+ 	color: #969696;
+    line-height: 256px;
+ }
+
+ .glyphicon-star{
+ 	font-size: 1.9em;
+ 	color: #ffffff;
+ }
+
+ .content p:after,
+ .content p:before{
+    background-color: #ffffff;
+    content: "";
+    display: inline-block;
+    height: 4px;
+    position: relative;
+    vertical-align: middle;
+    width: 13%;
+}
+
+ .content p:before{
+ 	right: 0.5em;
+    margin-left: -50%;
+ }
+
+ .content p:after{
+ 	left: 0.5em;
+    margin-right: -50%;
+ }
+
+
+
+ .content h1{
+ 	padding-bottom: 5px;
+ 	font-size: 4em;
+ }
+
+ #wrapper{
+ 	padding: 70px;
+ 	text-align: center;
+ }

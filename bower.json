@@ -1,0 +1,17 @@
+{
+  "name": "test_waltham",
+  "homepage": "https://github.com/JulsR/test_waltham",
+  "authors": [
+    "JulissaRoa <julissaroa.w@gmail.com>"
+  ],
+  "description": "test",
+  "main": "",
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
